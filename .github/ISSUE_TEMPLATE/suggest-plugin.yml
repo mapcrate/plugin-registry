@@ -1,0 +1,45 @@
+name: Suggest a plugin
+description: Suggest a plugin for the mapcrate registry (reviewed manually before it is added).
+title: "[plugin] <name>"
+labels: ["plugin-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a plugin! Every plugin is reviewed manually before it is added to the
+        registry. Prefer not to use GitHub? Email it instead (see the address in the repo README) —
+        attach the `.zip` if it is small, or send a download link if it is large.
+  - type: input
+    id: name
+    attributes:
+      label: Plugin name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does the plugin add? (maps, POIs, …)
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the plugin .zip
+      description: A direct download link to your plugin .zip (or a repo/release). It must contain a plugin.json.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: The .zip contains a valid plugin.json and loads when dropped into the app's plugins/ folder.
+          required: true
