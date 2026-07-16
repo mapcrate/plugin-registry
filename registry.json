@@ -5,11 +5,11 @@
       "name": "Woods",
       "description": "Woods map — full-resolution tiles + interior overlays.",
       "kind": "data",
-      "version": "1.0.2",
-      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.0.2/woods-1.0.2.zip",
-      "sha256": "acb1e55d7003838aa3b14e714f2168aebbf903b31462ad3bea393fa677ed4eec",
-      "size": 68404842,
-      "patchNotes": "Fixed interior overlay alignment — overlays now sit exactly on their place on the map."
+      "version": "1.0.3",
+      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.0.3/woods-1.0.3.zip",
+      "sha256": "45f3b2e03895e7f7dfef150d8372fb6ebef76da0075d3fa31ef2b35e27f6f042",
+      "size": 96137140,
+      "patchNotes": "JPEG base tiles — faster tile decode while exploring on low-end devices."
     }
   ]
 }
