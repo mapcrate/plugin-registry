@@ -1,9 +1,4 @@
 {
-  "app": {
-    "version": "0.2.4",
-    "url": "https://github.com/mapcrate/minimap-dist/releases/download/v0.2.4/minimap.exe",
-    "notes": "Bridge release — moves app self-update to its own channel (minimap-dist). After this, the registry is plugins-only."
-  },
   "plugins": [
     {
       "id": "woods",
