@@ -1,4 +1,9 @@
 {
+  "app": {
+    "version": "0.2.1",
+    "url": "https://github.com/mapcrate/plugin-registry/releases/download/app-0.2.1/minimap-0.2.1.exe",
+    "notes": "In-app self-update + plugin download progress bar."
+  },
   "plugins": [
     {
       "id": "woods",
