@@ -1,3 +1,15 @@
 {
-  "plugins": []
+  "plugins": [
+    {
+      "id": "woods",
+      "name": "Woods",
+      "description": "Woods map — base tiles + interior overlays.",
+      "kind": "data",
+      "version": "1.0.0",
+      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.0.0/woods-1.0.0.zip",
+      "sha256": "5e5ea81ab135536ea5df15e0bb5c7ee837da0da370e0515476e79ca1ae8f3f29",
+      "size": 58571707,
+      "patchNotes": "Initial release — base map + interior overlays."
+    }
+  ]
 }
