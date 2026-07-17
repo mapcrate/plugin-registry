@@ -3,13 +3,9 @@
     {
       "id": "woods",
       "name": "Woods",
-      "description": "Woods map — full-resolution tiles + interior overlays.",
-      "kind": "data",
-      "version": "1.0.3",
-      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.0.3/woods-1.0.3.zip",
-      "sha256": "45f3b2e03895e7f7dfef150d8372fb6ebef76da0075d3fa31ef2b35e27f6f042",
-      "size": 96137140,
-      "patchNotes": "JPEG base tiles — faster tile decode while exploring on low-end devices."
+      "author": "mapcrate",
+      "description": "Woods map — tiles + interior overlays. Pick a quality variant at install.",
+      "manifest": "https://raw.githubusercontent.com/mapcrate/plugin-registry/main/woods.manifest.json"
     }
   ]
 }

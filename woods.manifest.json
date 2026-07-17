@@ -1,0 +1,26 @@
+{
+  "id": "woods",
+  "name": "Woods",
+  "version": "1.1.0",
+  "author": "mapcrate",
+  "description": "Woods map \u2014 tiles + interior overlays. Pick a quality variant at install.",
+  "updateUrl": "https://raw.githubusercontent.com/mapcrate/plugin-registry/main/woods.manifest.json",
+  "variants": [
+    {
+      "id": "medium",
+      "label": "Medium \u2014 WebP",
+      "format": "raster",
+      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.1.0/woods-medium-1.1.0.zip",
+      "sha256": "178c1d2d01eac7cdf2fdc9b5a4faa378f039203f427956871232132545c8c79f",
+      "size": 64501485
+    },
+    {
+      "id": "low",
+      "label": "Low \u2014 JPEG (single compression)",
+      "format": "raster",
+      "url": "https://github.com/mapcrate/plugin-registry/releases/download/woods-1.1.0/woods-low-1.1.0.zip",
+      "sha256": "a9cad61556989e870b637f9abe22d530c3128bc1f774b42f3cb48f6854f80c5f",
+      "size": 88956955
+    }
+  ]
+}
